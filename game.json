@@ -1,0 +1,153 @@
+{
+	"MALL CENTER": {
+    "name": "    { ~ THE MALL ~ }\n",
+		"desc": "You are a lost child in the MIDDLE of a mall with no clue where your mother could be... Go find her!",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "NORTH"
+		}, {
+			"exit": "SOUTH",
+			"target": "SOUTH"
+		}, {
+			"exit": "WEST",
+            "target": "WEST"
+        }, {
+            "exit": "EAST",
+            "target": "EAST"
+        }, {
+            "exit": "NORTHWEST",
+            "target": "NORTHWEST"
+        }, {
+            "exit": "NORTHEAST",
+            "target": "NORTHEAST"
+        }, {
+            "exit": "SOUTHWEST",
+            "target": "SOUTHWEST"
+        },{
+            "exit": "SOUTHEAST",
+            "target": "SOUTHEAST"    
+        }],
+        "items": []
+    }
+    ,"NORTH":{        
+        "name": "Women's clothing section",
+        "desc": "You have entered the Women's clothing section and you immediately become overwhelmed as every women looks like your mother...",
+        "exits": [{
+            "exit": "MALL CENTER",
+            "target": "MALL CENTER"
+            
+        }],
+		"items": [{
+            "item": "COAT BUTTON"
+            ,"desc": "You go to turn back but find your mom's COAT BUTTON at your feet..."
+            ,"take": "You take the button and continue your search."
+
+        }]
+    }
+    ,"WEST":{        
+        "name": "Men's clothing Section",
+        "desc": "You have entered the Men's clothing section... Not many shoppers here it seems...",
+        "exits": [{
+            "exit": "MALL CENTER",
+            "target": "MALL CENTER"
+            
+        }],
+		"items": [{
+            "item": "STALE AIR AND A SENSE OF SADNESS"
+            ,"desc": "You survey the room briefly before catching onto the stench of STALE AIR AND A SENSE OF SADNESS..."
+            ,"take": "You take in the moment to step away from your panic to take in the sadness before you before continuing your search."
+
+        }]
+    }
+    ,"EAST":{        
+        "name": "A retail shoe store",
+        "desc": "It's rather packed... I wonder if she could be in here?",
+        "exits": [{
+            "exit": "MALL CENTER",
+            "target": "MALL CENTER"
+            
+        }],
+		"items": [{
+            "item": "LOOKING"
+            ,"desc": "I better get LOOKING!"
+            ,"take": "She was not there."
+
+        }]
+    }
+    ,"SOUTH":{        
+        "name": "Retail store",
+        "desc": "A larger part of the MALL but has one of those overly done entry ways, huh.",
+        "exits": [{
+            "exit": "MALL CENTER",
+            "target": "MALL CENTER"
+            
+        }],
+		"items": [{
+            "item": "MALL"
+            ,"desc": "You take a quick peak..."
+            ,"take": "You doubt she would enter that part of the mall anyways... "
+
+        }]
+    }
+    ,"NORTHWEST":{        
+        "name": "Toy store",
+        "desc": "So many TOYS to choose from!",
+        "exits": [{
+            "exit": "MALL CENTER",
+            "target": "MALL CENTER"
+            
+        }],
+		"items": [{
+            "item": "TOYS"
+            ,"desc": "Better take a look!"
+            ,"take": "You hoped that she would be here since she did promise a toy if you were good at the mall, guess thats not happening now..."
+
+        }]
+    }
+    ,"NORTHEAST":{        
+        "name": "The Restrooms",
+        "desc": "They kinda smell...",
+        "exits": [{
+            "exit": "MALL CENTER",
+            "target": "MALL CENTER"
+            
+        }],
+		"items": [{
+            "item":"TIP"
+            ,"desc":"You walk into the restroom and accidentally bump into a family friend who is offering you a TIP"
+            ,"take":"A family friend mentioned that they saw mom near the retail store, maybe I should check it out!"
+
+        }]
+    }
+    ,"SOUTHWEST":{        
+        "name": "Vending machines",
+        "desc": "A gross area of the mall and you feel scared to approach this part of the mall, probably not a good idea...",
+        "exits": [{
+            "exit": "MALL CENTER",
+            "target": "MALL CENTER"
+            
+        }],
+		"items": [{
+            "item":"CLOSER"
+            ,"desc":"A mysterious figure is lurking and asks you to come CLOSER"
+            ,"take":"Without hesitation the mysterious figure reaches out to you... You have been abducted!? (YOU LOSE)"
+
+        }]
+    }
+    ,"SOUTHEAST":{        
+        "name": "Perfume store",
+        "desc": "This store gives off a pleasant aroma that reminds you of mom",
+        "exits": [{
+            "exit": "MALL CENTER",
+            "target": "MALL CENTER"
+            
+        }],
+		"items": [{
+            "item":"MOM"
+            ,"desc":"Could it be MOM in the back of the store?"
+            ,"take":"Phew! What a relief! I'm glad thats over with! (YOU WIN)"
+
+        }]
+    }
+
+}
